@@ -5,10 +5,14 @@ guest_name = gets.chomp
 puts "What is the party's name?"
 party_name = gets.chomp
 
-party_name = "Best Halloween Party Ever"
-date = "October 31"
-time = "6pm"
-host_name = "Harry Potter"
+puts "When is the date of the party?"
+date = gets.chomp
+
+puts "What time is the party going to be at?"
+time = gets.chomp
+
+puts "Who is hosting the party?"
+host_name = gets.chomp
 
 # Try starting out with puts'ing a string.
 puts "Dear #{guest_name},"
