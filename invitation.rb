@@ -1,5 +1,9 @@
 # Code your prompts here!
-guest_name = "Hermione"
+puts "What is your name?"
+guest_name = gets.chomp!
+
+
+
 party_name = "Best Halloween Party Ever"
 date = "October 31"
 time = "6pm"
