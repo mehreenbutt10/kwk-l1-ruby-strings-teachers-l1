@@ -2,7 +2,8 @@
 puts "What is your name?"
 guest_name = gets.chomp!
 
-
+puts "What is the party's name?"
+party_name = gets.chomp
 
 party_name = "Best Halloween Party Ever"
 date = "October 31"
